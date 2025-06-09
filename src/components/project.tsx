@@ -32,20 +32,20 @@ export default function Project() {
                 <p className="text-base text-black font-normal">
                     Here are some projects that I have worked on.
                 </p>
-                <div className="mt-10 flex gap-[22px]">
+                <div className="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-[22px]">
                     {PROJECT_TYPES.map((type, i) => (
                         <div
                             key={i}
                             className={`${projectType.value === type.value
                                 ? "bg-[#FD6F00] text-white"
-                                : "bg-[#F8F8F8] border border-[#545454] text-black"} px-5 py-2 text-base font-normal rounded-xl cursor-pointer`}
+                                : "bg-[#F8F8F8] border border-[#545454] text-black"} col-span-1 px-5 py-2 text-base text-center font-normal rounded-xl cursor-pointer`}
                             onClick={() => handleProjectTypeChange(type)}
                         >
                             {type.title}
                         </div>
                     ))}
                 </div>
-                <div className="mt-10 grid grid-cols-3 gap-4">
+                <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-4">
                     {projects.map((project, i) => (
                         <div
                             key={i}

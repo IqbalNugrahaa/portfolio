@@ -4,9 +4,9 @@ import { Variable } from "@/constants/variable";
 
 export default function About() {
     return (
-        <section id="about" className="h-fit font-poppins bg-white px-10 lg:px-[250px]">
+        <section id="about" className="h-fit font-poppins bg-white px-10 lg:px-[250px] mb-[50px]">
             <div className="flex justify-center items-center gap-[33px]">
-                <div className="relative w-[675px] h-[675px]">
+                <div className="hidden lg:block relative w-[675px] h-[675px]">
                     <Image
                         src="/images/about.webp"
                         alt="profile"

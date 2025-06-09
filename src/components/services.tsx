@@ -14,7 +14,7 @@ export default function Services() {
                 <p className="text-base text-black font-normal">
                     The technical skills I have at work include understanding Flutter, React JS, and Next JS programming.
                 </p>
-                <div className="flex mt-3 gap-[31px]">
+                <div className="flex flex-col lg:flex-row mt-3 gap-[31px]">
                     {
                         SERVICES.map((service) => (
                             <div
