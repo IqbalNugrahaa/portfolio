@@ -12,7 +12,7 @@ export default function Personal() {
             <div className="flex flex-col md:flex-row justify-between items-center gap-12">
                 {/* Tab Kiri */}
                 <div className="flex-1 flex flex-col gap-4 items-start text-center md:text-left">
-                    <p className="text-black text-sm">Hi, I'm</p>
+                    <p className="text-black text-sm">Hi, I am</p>
                     <p className="text-2xl font-bold text-[#FD6F00]">
                         IQBAL FATUR NUGRAHA
                     </p>
